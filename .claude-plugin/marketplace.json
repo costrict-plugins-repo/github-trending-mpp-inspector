@@ -1,0 +1,21 @@
+{
+  "name": "mpp-inspector",
+  "owner": {
+    "name": "MPP Inspector Contributors",
+    "email": "amgb20@github.com"
+  },
+  "metadata": {
+    "description": "Machine Payments Protocol debugging and inspection tools for Claude Code",
+    "version": "0.1.2"
+  },
+  "plugins": [
+    {
+      "name": "mpp-inspector",
+      "source": "./",
+      "description": "Inspect, debug, and test Machine Payments Protocol (HTTP 402) endpoints directly from Claude Code. Adds /mpp-inspect, /mpp-scan, /mpp-flow commands and 5 MCP tools.",
+      "version": "0.1.2",
+      "category": "web3",
+      "keywords": ["mpp", "http-402", "payments", "web3", "tempo", "mcp", "debugging"]
+    }
+  ]
+}
